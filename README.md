@@ -21,12 +21,15 @@ Follow these continuous steps in your terminal to get the project running:
 
 ```bash
 # Step 1: Clone the Repository and enter the folder
-git clone [https://github.com/bantrothurohithkumar-hub/django-word-counter.git](https://github.com/bantrothurohithkumar-hub/django-word-counter.git)
+git clone https://github.com/bantrothurohithkumar-hub/django-word-counter.git
 cd django-word-counter
 
 # Step 2: Create and Activate the Virtual Environment (Windows)
 python -m venv myproject
 myproject\Scripts\activate
+#Create and Activate the Virtual Environment(Mac/Linux)
+ python 3 venv myproject
+ source myproject/bin/activate
 
 # Step 3: Install Required Packages
 pip install -r requirements.txt
