@@ -25,11 +25,11 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/django-word-counter.git
 cd django-word-counter
 ### 2.Create and Activate a Virtual Environment
  * **For Windows:**
-   \`\`\`bash 
-       python -m venv myproject
+   ```bash 
+       python -m venv myproject 
        myproject\Scripts\activate
  * **For Mac/Linux:**
-  \`\`\`bash
+  ```bash
        python3 -m venv myproject
        source myproject/bin/activate
 ### 3.Install Requirement Packages
