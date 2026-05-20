@@ -1,43 +1,38 @@
-# Django Word Counter
+# 📝 Django Word Counter
 
-A simple and responsive Django web application that allows users to input text into a form and immediately see the total word count upon submission. 
+A simple and responsive Django web application that allows users to enter text in a text box on the home page and immediately displays the total number of words upon submission.
 
 ---
 
-## 🚀 Features
-* Clean, user-friendly interface.
-* Instant server-side word processing.
+## 🛠️ Features
+* Clean, user-friendly home page with a text input box.
+* Fast server-side word processing and counting logic.
 * Built using Django's Model-View-Template (MVT) architecture.
 
-## 🛠️ Tech Stack
-* **Backend:** Python 3.x, Django 5.x
-* **Frontend:** HTML5, CSS3
+## 💻 Tech Stack
+* **Backend:** Python, Django
+* **Frontend:** HTML, CSS
 
-----
+---
 
-## 💻 How to Setup and Run Locally
+## 🚀 How to Setup and Run This Project Locally
 
-Follow these steps to get the project running on your local machine:
+Follow these continuous steps in your terminal to get the project running:
 
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/django-word-counter.git
+# Step 1: Clone the Repository and enter the folder
+git clone [https://github.com/bantrothurohithkumar-hub/django-word-counter.git](https://github.com/bantrothurohithkumar-hub/django-word-counter.git)
 cd django-word-counter
-### 2. Create and Activate a Virtual Environment
-* **For Windows:**
-  ```bash
-  python -m venv myproject
-  myproject\Scripts\activate
-* ** For Linux/Mac:**
-   ```bash
-  python3 -m venv myproject
-  source myproject/bin/activate
-  myproject\Scripts\activate
 
-###3.Install Requirement Packages
-     pip install -r requirements.txt
- ###4.Run Database Migration
-   python manage.py migrate
- ###5.Start the Development Server
-   python manage.py runserver
-   Once the server is running,open web browser and go to http://127.0.0.1:8000/
+# Step 2: Create and Activate the Virtual Environment (Windows)
+python -m venv myproject
+myproject\Scripts\activate
+
+# Step 3: Install Required Packages
+pip install -r requirements.txt
+
+# Step 4: Run Database Migrations
+python manage.py migrate
+
+# Step 5: Start the Development Server
+python manage.py runserver
