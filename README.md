@@ -23,21 +23,21 @@ Follow these steps to get the project running on your local machine:
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/django-word-counter.git
 cd django-word-counter
-2.Create and Activate a Virtual Environment
-  For Creating run the below command in terminal
-     In-Windows:
-       python -m venv myproject 
-    In-Mac/Linux:
-         python3 -m venv myproject
-  For Activating run the below command in terminal
-     In-Windows:
-        myproject\Scripts\activate
-     For Mac/Linux:
-        source myproject/bin/activate
-3.Install Requirement Packages
+### 2. Create and Activate a Virtual Environment
+* **For Windows:**
+  ```bash
+  python -m venv myproject
+  myproject\Scripts\activate
+* ** For Linux/Mac:**
+   ```bash
+  python3 -m venv myproject
+  source myproject/bin/activate
+  myproject\Scripts\activate
+
+###3.Install Requirement Packages
      pip install -r requirements.txt
- 4.Run Database Migration
+ ###4.Run Database Migration
    python manage.py migrate
- 5.Start the Development Server
+ ###5.Start the Development Server
    python manage.py runserver
    Once the server is running,open web browser and go to http://127.0.0.1:8000/
